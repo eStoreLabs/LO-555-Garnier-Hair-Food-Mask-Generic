@@ -860,10 +860,6 @@
   margin-bottom: 20px;
 }
 
-#es-garnier.es-garnier .es-influ__BG img {
-  display: none;
-}
-
 #es-garnier.es-garnier .es-influ__quote {
   text-align: center;
   font-style: italic;
@@ -886,38 +882,20 @@
   #es-garnier.es-garnier .es-influ__BG {
     position: relative;
   }
-
-  #es-garnier.es-garnier .es-influ__BG img {
-    display: block;
-  }
-
   #es-garnier.es-garnier .es-influ__quote {
     text-align: center;
     font-style: italic;
     font-weight: 700;
     font-size: 22px;
-    position: absolute;
-    top: 55px;
-    left: 20%;
-    color: #FFFFFF;
+    margin-top: 60px;
   }
 
   #es-garnier.es-garnier .es-influ__name {
     text-align: center;
     font-weight: 700;
     text-transform: none;
-    position: absolute;
-    top: 110px;
-    left: 35%;
-    transform-origin: top;
-    color: #FFFFFF;
+    margin-bottom: 60px;
   }
-}
-
-#es-garnier.es-garnier .es-footer__wrapper {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 #es-garnier.es-garnier .es-footer__text {
@@ -934,8 +912,7 @@
 
 @media (min-width: 638px) {
   #es-garnier.es-garnier .es-footer__text {
-    max-width: 45%;
-    width: unset;
+    text-align: center;
   }
 
   #es-garnier.es-garnier .es-footer__logoCtn {

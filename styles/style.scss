@@ -106,7 +106,7 @@ $font-family_2: "Lato";
 			line-height: 1.7;
 			span {
 				color: $color_1;
-				background-color: $color_3;
+				background-color: $background-color_1;
 				letter-spacing: 1px;
 				padding: 4px 12px;
 			}
@@ -369,7 +369,7 @@ $font-family_2: "Lato";
 			.es-cross__link {
 				text-decoration: none;
 				color: $color_6;
-				background-color: $color_1;
+				background-color: $background-color_2;
 			}
 		}
 	}
@@ -396,7 +396,7 @@ $font-family_2: "Lato";
 	}
 	.es-cross__link {
 		text-decoration: none;
-		background-color: $color_6;
+		background-color: $background-color_3;
 		color: $color_1;
 		border: 2px solid #D5421D;
 		border-radius: 5px;
@@ -443,7 +443,7 @@ $font-family_2: "Lato";
 		color: $color_7;
 		text-transform: uppercase;
 		font-weight: 700;
-		background-color: $color_1;
+		background-color: $background-color_2;
 		padding-left: 10%;
 		padding-right: 10%;
 		margin-top: -28px;
@@ -489,11 +489,6 @@ $font-family_2: "Lato";
 	.es-influ__subtitle-mobile {
 		margin-bottom: 20px;
 	}
-	.es-influ__BG {
-		img {
-			display: none;
-		}
-	}
 	.es-influ__quote {
 		text-align: center;
 		font-style: italic;
@@ -509,11 +504,6 @@ $font-family_2: "Lato";
 		margin-top: 20px;
 		margin-bottom: 30px;
 		color: $color_3;
-	}
-	.es-footer__wrapper {
-		display: flex;
-		align-items: center;
-		flex-wrap: wrap;
 	}
 	.es-footer__text {
 		font-size: 11px;
@@ -641,33 +631,22 @@ $font-family_2: "Lato";
 		}
 		.es-influ__BG {
 			position: relative;
-			img {
-				display: block;
-			}
 		}
 		.es-influ__quote {
 			text-align: center;
 			font-style: italic;
 			font-weight: 700;
 			font-size: 22px;
-			position: absolute;
-			top: 55px;
-			left: 20%;
-			color: $color_1;
+			margin-top: 60px;
 		}
 		.es-influ__name {
 			text-align: center;
 			font-weight: 700;
 			text-transform: none;
-			position: absolute;
-			top: 110px;
-			left: 35%;
-			transform-origin: top;
-			color: $color_1;
+			margin-bottom: 60px;
 		}
 		.es-footer__text {
-			max-width: 45%;
-			width: unset;
+			text-align: center;
 		}
 		.es-footer__logoCtn {
 			margin-block: 32px;
