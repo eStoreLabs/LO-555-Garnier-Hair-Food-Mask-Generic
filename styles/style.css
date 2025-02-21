@@ -329,6 +329,11 @@
     height: 240px;
     padding: 25px 60px;
   }
+  #es-garnier.es-garnier .es-benefits__ellipse-wrapper {
+    width: 90px;
+    height: 180px;
+    bottom: -5%;
+  }
 }
 @media (min-width: 450px) {
 
