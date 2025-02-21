@@ -301,21 +301,42 @@
   opacity: 1;
 }
 
-#es-garnier.es-garnier .es-benefits__ellipse-2 {
+#es-garnier.es-garnier .es-benefits__ellipse-wrapper {
   position: absolute;
-  bottom: -7%;
+  bottom: -8%;
   left: 0;
-  width: 120px;
+  width: 140px;
+  height: 280px;
   z-index: -1;
 }
+#es-garnier.es-garnier .es-benefits__ellipse-2 {
+  background-color: #11622C;
+  border: 1px solid #11622C;
+  border-radius: 0 100% 100% 0 / 50%;
+  width: 228px;
+  height: 398px;
+  max-width: 100%;
+  max-height: 100%;
+}
 
+
+@media (max-width: 329px) {
+  #es-garnier.es-garnier .es-benefits__icon {
+    width: 65px;
+  }
+  #es-garnier.es-garnier .es-benefits__single {
+    min-width: 141px;
+    height: 240px;
+    padding: 25px 60px;
+  }
+}
 @media (min-width: 450px) {
 
   #es-garnier.es-garnier .es-benefits__single {
     flex: 1;
     margin: 8px;
-    min-width: 160px;
-    max-height: 180px;
+    min-width: 180px;
+    min-height: 220px;
     width: unset;
     height: unset;
     padding: 44px 8px;
@@ -361,9 +382,11 @@
     padding: 15px 105px;
   }
 
-  #es-garnier.es-garnier .es-benefits__ellipse-2 {
-    bottom: -10%;
+  #es-garnier.es-garnier .es-benefits__ellipse-wrapper {
+    bottom: -8%;
     width: 160px;
+    height: 320px;
+   
   }
 }
 
@@ -380,15 +403,21 @@
   }
 
   #es-garnier.es-garnier .es-benefits__figure {
-    max-width: 400px;
+    max-width: 420px;
   }
 
   #es-garnier.es-garnier .es-benefits__imgCtn {
-    max-width: 400px;
+    max-width: 420px;
   }
 
   #es-garnier.es-garnier .es-benefits__BA--text {
     padding: 15px;
+  }
+  #es-garnier.es-garnier .es-benefits__ellipse-wrapper {
+    bottom: -11%;
+    width: 140px;
+    height: 280px;
+   
   }
 }
 
@@ -661,7 +690,8 @@
   scale: 1.05;
 }
 
-#es-garnier.es-garnier .es-cross__single:hover .es-cross__link {
+#es-garnier.es-garnier .es-cross__single:hover .es-cross__link,
+#es-garnier.es-garnier .es-cross__link:focus-visible {
   text-decoration: none;
   color: #D5421D;
   background-color: #FFFFFF;
@@ -703,7 +733,7 @@
   font-size: 13px;
 }
 
-@media (min-width: 638px) {
+@media (min-width: 840px) {
   #es-garnier.es-garnier .es-cross {
     display: block;
   }
@@ -806,7 +836,7 @@
   line-height: 1.4;
 }
 
-@media (min-width: 638px) {
+@media (min-width: 840px) {
   #es-garnier.es-garnier .es-cross--mobile {
     display: none;
   }
