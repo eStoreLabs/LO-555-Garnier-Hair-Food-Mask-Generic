@@ -65,6 +65,7 @@ $font-family_2: "Lato";
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	
 	.es-kv__wrapper {
 		margin: 0;
 		position: relative;
@@ -214,9 +215,8 @@ $font-family_2: "Lato";
 		margin: 8px;
 		min-width: 141px;
 		height: 183px;
-		padding: 44px 8px;
-		padding-top: 20px;
-		padding-bottom: 39px;
+		padding: 0 8px;
+		padding-top: 35px;
 		background: $color_1;
 		color: $color_4;
 		font-weight: 700;
@@ -631,7 +631,7 @@ $font-family_2: "Lato";
 		.es-benefits__single {
 			min-width: 141px;
 			height: 240px;
-			padding: 25px 60px;
+			padding: 55px 60px;
 		}
 		.es-benefits__ellipse-wrapper {
 			width: 90px;
@@ -649,9 +649,8 @@ $font-family_2: "Lato";
 			min-height: 220px;
 			width: unset;
 			height: unset;
-			padding: 44px 8px;
-			padding-top: 20px;
-			padding-bottom: 39px;
+			padding: 0 8px;
+			padding-top: 55px;
 		}
 	}
 }
