@@ -184,22 +184,11 @@
 #es-garnier.es-garnier .es-benefits .es-title {
   z-index: 1;
   position: relative;
-  margin-left: -12%;
 }
 
 #es-garnier.es-garnier .es-benefits .es-subtitle {
-  width: 70%;
-  text-align: left;
+  text-align: center;
   line-height: 1.2;
-  margin-top: -5px;
-}
-
-#es-garnier.es-garnier .es-benefits__subtitle-span {
-  margin-left: 8%;
-}
-
-#es-garnier.es-garnier .es-benefits__subtitle-span-2 {
-  margin-left: 30%;
 }
 
 #es-garnier.es-garnier .es-benefits__header {
@@ -375,26 +364,8 @@
 }
 
 @media (min-width: 638px) {
-  #es-garnier.es-garnier .es-benefits .es-title {
-    margin-left: -200px;
-  }
-
   #es-garnier.es-garnier .es-benefits .es-subtitle {
-    text-align: center;
-    margin-top: -10px;
-    width: 70%;
-  }
-
-  #es-garnier.es-garnier .es-benefits .es-subtitle br {
-    display: none;
-  }
-
-  #es-garnier.es-garnier .es-benefits__subtitle-span {
-    margin-left: 0;
-  }
-
-  #es-garnier.es-garnier .es-benefits__subtitle-span-2 {
-    margin-left: 0;
+    display: inline;
   }
 
   #es-garnier.es-garnier .es-benefits__BA--text {
@@ -405,7 +376,6 @@
     bottom: -8%;
     width: 160px;
     height: 320px;
-   
   }
 }
 
@@ -413,7 +383,9 @@
   #es-garnier.es-garnier .es-benefits {
     padding: 50px 32px 32px 32px;
   }
-
+  #es-garnier.es-garnier .es-benefits .es-title br {
+    display: none;
+  }
   #es-garnier.es-garnier .es-benefits__container {
     flex-wrap: nowrap;
     justify-content: space-between;
