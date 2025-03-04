@@ -15,22 +15,27 @@ $font-family_2: "Lato";
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
+
 	* {
 		box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 	}
+
 	img {
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
 	}
+
 	p {
 		margin: 0;
 		padding: 0;
 	}
+
 	sup {
 		font-size: 0.6em;
 	}
+
 	.es-title {
 		font-family: $font-family_2;
 		text-transform: uppercase;
@@ -42,6 +47,7 @@ $font-family_2: "Lato";
 		color: $color_2;
 		margin-bottom: 8px;
 	}
+
 	.es-subtitle {
 		font-family: $font-family_2;
 		text-transform: uppercase;
@@ -56,15 +62,18 @@ $font-family_2: "Lato";
 		justify-content: center;
 		align-items: center;
 		margin: auto;
+
 		span {
 			transform: none;
 		}
 	}
+
 	.es-kv {
 		padding-bottom: 50px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+
 	.es-kv__wrapper {
 		margin: 0;
 		position: relative;
@@ -72,8 +81,10 @@ $font-family_2: "Lato";
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.es-kv__branding {
 		text-align: center;
+
 		.es-kv__text {
 			text-transform: uppercase;
 			font-weight: 700;
@@ -83,17 +94,21 @@ $font-family_2: "Lato";
 			color: $color_3;
 		}
 	}
+
 	.es-kv__img {
 		margin-top: 20px;
 		padding: 0 15px;
 	}
+
 	.es-kv__logoCtn {
 		margin: auto;
 		padding-top: 20px;
+
 		img {
 			margin: auto;
 		}
 	}
+
 	.es-kv__textCtn {
 		.es-kv__text {
 			margin-top: 30px;
@@ -104,6 +119,7 @@ $font-family_2: "Lato";
 			text-transform: uppercase;
 			font-weight: 700;
 			line-height: 1.7;
+
 			span {
 				color: $color_1;
 				background-color: $background-color_1;
@@ -112,63 +128,77 @@ $font-family_2: "Lato";
 			}
 		}
 	}
+
 	.es-kv__packshotCtn {
 		display: flex;
 		max-width: 355px;
 		margin: -2px auto 0 auto;
 	}
+
 	.es-kv__packshotCtn-desktop {
 		display: none;
 	}
+
 	.es-kv__packshot {
 		width: 25%;
 		transition: all 200ms ease-in-out;
+
 		&:hover {
 			scale: 1.05;
 		}
 	}
+
 	.es-benefits {
 		padding: 50px 0 32px 0;
 		position: relative;
 		z-index: 2;
+
 		.es-title {
 			z-index: 1;
 			position: relative;
 		}
+
 		.es-subtitle {
 			text-align: center;
 			line-height: 1.2;
 		}
 	}
+
 	.es-benefits__header {
 		padding-inline: 8px;
 	}
+
 	.es-benefits__container {
 		display: flex;
 		flex-wrap: wrap-reverse;
 		justify-content: center;
 		align-items: center;
 	}
+
 	.es-benefits__figure {
 		position: relative;
 		width: 100%;
 		margin: auto;
 		margin: 0;
 	}
+
 	.es-benefits__imgCtn {
 		overflow: hidden;
 		aspect-ratio: 1/1;
 		margin: auto;
+
 		img {
 			aspect-ratio: 1/1;
 			-o-object-fit: contain;
 			object-fit: contain;
 			transition: all 200ms ease-in-out;
+
 			&:hover {
 				scale: 1.1;
 			}
 		}
 	}
+
 	.es-benefits__BA--text {
 		position: absolute;
 		top: 0;
@@ -181,6 +211,7 @@ $font-family_2: "Lato";
 		font-size: 14px;
 		color: $color_1;
 	}
+
 	.es-benefits__cards {
 		margin: 32px 0;
 		display: flex;
@@ -188,18 +219,22 @@ $font-family_2: "Lato";
 		justify-content: center;
 		align-items: center;
 		max-width: 500px;
+
 		.es-benefits__single {
 			opacity: 1;
+
 			&:hover {
 				opacity: 1;
 			}
 		}
+
 		&:hover {
 			.es-benefits__single {
 				opacity: 0.8;
 			}
 		}
 	}
+
 	.es-benefits__single {
 		flex: 1 25%;
 		margin: 8px;
@@ -214,14 +249,17 @@ $font-family_2: "Lato";
 		border-radius: 16px;
 		box-shadow: 1px 1px 15px 3px #0000001A;
 		transition: all 0.3s ease-in-out;
+
 		&:hover {
 			transform: scale(1.05);
 		}
 	}
+
 	.es-benefits__icon {
 		width: 45px;
 		margin: 0 auto;
 	}
+
 	.es-benefits__text {
 		font-size: 14px;
 		text-align: center;
@@ -232,6 +270,7 @@ $font-family_2: "Lato";
 		text-transform: uppercase;
 		line-height: 1.2;
 	}
+
 	.es-benefits__text--small {
 		font-size: 12px;
 		margin-bottom: 10px;
@@ -240,6 +279,7 @@ $font-family_2: "Lato";
 		margin-top: 5px;
 		display: block;
 	}
+
 	.es-benefits__ellipse-wrapper {
 		position: absolute;
 		bottom: -8%;
@@ -248,6 +288,7 @@ $font-family_2: "Lato";
 		height: 280px;
 		z-index: -1;
 	}
+
 	.es-benefits__ellipse-2 {
 		background-color: $background-color_2;
 		border: 1px solid $color_7;
@@ -257,12 +298,14 @@ $font-family_2: "Lato";
 		max-width: 100%;
 		max-height: 100%;
 	}
+
 	.es-use {
 		margin-top: 48px;
 		padding: 32px;
 		background-size: cover;
 		background-position: 0px 0px;
 		background-image: linear-gradient(167deg, #F7A100 50%, #F7AB00 50%);
+
 		.es-subtitle {
 			font-family: $font-family_2;
 			text-transform: uppercase;
@@ -281,22 +324,29 @@ $font-family_2: "Lato";
 			-webkit-text-stroke: unset;
 		}
 	}
+
 	.es-use__header--mobile {
 		-webkit-text-stroke: 1.5px $color_1;
 		color: $color_5;
 		letter-spacing: 1px;
 	}
+
 	.es-use__imgCtn {
 		position: relative;
 		z-index: 1;
 		margin-block: 16px;
+
 		img {
 			margin: auto;
 			transition: all 300ms ease-in-out;
+			max-width: 190px;
+			padding: 25px;
+
 			&:hover {
 				scale: 1.1;
 			}
 		}
+
 		&:before {
 			position: absolute;
 			content: "";
@@ -304,14 +354,15 @@ $font-family_2: "Lato";
 			width: 48%;
 			height: 100px;
 			transform: translateX(-50%);
-			bottom: -13%;
-			left: 54%;
+			bottom: -26%;
+			left: 52%;
 			z-index: -1;
 			background-size: 100% 100%;
 			background-position: 0px 0px;
 			background-image: radial-gradient(55% 58% at 52% 56%, #e37300 0%, #ea7a00 25%, rgba(7, 58, 255, 0) 68%);
 		}
 	}
+
 	.es-use__wrapper {
 		display: flex;
 		flex-direction: column;
@@ -320,9 +371,11 @@ $font-family_2: "Lato";
 		position: relative;
 		z-index: 2;
 	}
+
 	.es-use__single {
 		text-align: center;
 	}
+
 	.es-use__title {
 		text-transform: uppercase;
 		color: $color_1;
@@ -330,12 +383,14 @@ $font-family_2: "Lato";
 		margin-bottom: 8px;
 		font-size: 20px;
 	}
+
 	.es-use__text {
 		text-align: center;
 		text-wrap: balance;
 		color: $color_4;
 		font-size: 15px;
 	}
+
 	.es-cross {
 		margin-top: 70px;
 		margin-bottom: 80px;
@@ -343,6 +398,7 @@ $font-family_2: "Lato";
 		position: relative;
 		display: none;
 	}
+
 	.es-cross__header {
 		.es-subtitle {
 			max-width: -moz-fit-content;
@@ -350,6 +406,7 @@ $font-family_2: "Lato";
 			padding-inline: 140px;
 		}
 	}
+
 	.es-cross__wrapper {
 		display: flex;
 		justify-content: center;
@@ -358,28 +415,33 @@ $font-family_2: "Lato";
 		margin-top: 20px;
 		margin-bottom: 60px;
 	}
+
 	.es-cross__single {
 		display: flex;
 		flex-direction: column;
 		width: 25%;
 		text-align: center;
+
 		&:hover {
 			.es-cross__img {
 				scale: 1.05;
 			}
 		}
 	}
+
 	.es-cross__link {
 		&:hover {
 			text-decoration: none;
 			color: $color_6;
 			background-color: $background-color_3;
 		}
+
 		&:focus-visible {
 			text-decoration: none;
 			color: $color_6;
 			background-color: $background-color_3;
 		}
+
 		text-decoration: none;
 		background-color: $background-color_4;
 		color: $color_1;
@@ -390,12 +452,14 @@ $font-family_2: "Lato";
 		font-weight: 700;
 		font-size: 13px;
 	}
+
 	.es-cross__single--product {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center top;
 		height: 275px;
 	}
+
 	.es-cross__text {
 		font-family: $font-family_2;
 		text-align: center;
@@ -407,14 +471,17 @@ $font-family_2: "Lato";
 		margin-top: 80px;
 		margin-bottom: 35px;
 	}
+
 	.es-cross__img {
 		max-width: 150px;
 		transition: all 200ms ease-in-out;
 	}
+
 	.es-cross__table {
 		margin-top: 35px;
 		text-align: center;
 	}
+
 	.es-cross__table-title {
 		color: $color_7;
 		font-weight: 700;
@@ -423,11 +490,13 @@ $font-family_2: "Lato";
 		padding: 10px 0;
 		margin-bottom: 15px;
 	}
+
 	.es-cross__table--wrapper {
 		display: flex;
 		justify-content: center;
 		margin: 15px 0;
 	}
+
 	.es-cross__table--single {
 		width: 25%;
 		color: $color_3;
@@ -437,13 +506,16 @@ $font-family_2: "Lato";
 		border-bottom: none;
 		border-top: none;
 		line-height: 1.5;
+
 		&:first-child {
 			border-left: none;
 		}
+
 		&:last-child {
 			border-right: none;
 		}
 	}
+
 	.es-cross__table--links {
 		.es-cross__table--single {
 			margin-top: 30px;
@@ -452,27 +524,34 @@ $font-family_2: "Lato";
 			width: 100%;
 		}
 	}
+
 	.es-cross--mobile {
 		margin: 40px 0;
+
 		.es-cross__single {
 			width: 290px;
 			margin: 0 auto;
 			height: 860px;
 		}
+
 		.es-cross__single--product {
 			min-height: 360px;
 		}
+
 		.es-cross__text {
 			font-size: 30px;
 		}
+
 		.es-cross__img {
 			max-width: 200px;
 			margin-top: 70px;
 		}
 	}
+
 	.es-cross--mobile__header {
 		margin-bottom: 30px;
 	}
+
 	.es-cross__table-mobile {
 		color: $color_3;
 		font-size: 14px;
@@ -480,12 +559,15 @@ $font-family_2: "Lato";
 		padding: 20px 50px;
 		margin-top: 50px;
 	}
+
 	.es-cross__table-mobile-2 {
 		margin-top: 40px;
 	}
+
 	.es-cross__table-mobile-3 {
 		margin-top: 40px;
 	}
+
 	.es-cross__table-mobile-title {
 		color: $color_7;
 		text-transform: uppercase;
@@ -495,47 +577,59 @@ $font-family_2: "Lato";
 		padding-right: 10%;
 		margin-top: -28px;
 	}
+
 	.es-cross__table-mobile-content {
 		margin-top: 20px;
 		line-height: 1.4;
 	}
+
 	.es-swiper1 {
 		width: auto;
 		height: 930px;
+
 		.swiper-pagination-bullet {
 			opacity: 0.5;
 			background: $color_6;
 		}
+
 		.swiper-pagination-bullet-active {
 			background: $color_6;
 			opacity: 1;
 		}
 	}
+
 	.swiper-button-prev.es-swiper1-button-prev {
 		top: 20%;
+
 		&::after {
 			font-size: 35px;
 			font-weight: 900;
 			color: $color_7;
 		}
 	}
+
 	.swiper-button-next.es-swiper1-button-next {
 		top: 20%;
+
 		&::after {
 			font-size: 35px;
 			font-weight: 900;
 			color: $color_7;
 		}
 	}
+
 	.swiper-button-disabled {
 		display: none;
 	}
+
 	.es-title.es-influ__title-mobile {
 		margin-top: 60px;
 	}
+
 	.es-influ__subtitle-mobile {
 		margin-bottom: 20px;
 	}
+
 	.es-influ__quote {
 		text-align: center;
 		font-style: italic;
@@ -543,6 +637,7 @@ $font-family_2: "Lato";
 		font-size: 18px;
 		color: $color_3;
 	}
+
 	.es-influ__name {
 		text-align: center;
 		font-weight: 700;
@@ -552,15 +647,18 @@ $font-family_2: "Lato";
 		margin-bottom: 30px;
 		color: $color_3;
 	}
+
 	.es-footer__text {
 		font-size: 11px;
 		color: $color_4;
 		padding: 30px 10px;
 		width: 100%;
 	}
+
 	.es-footer__logoCtn {
 		margin: 20px auto;
 	}
+
 	.es-footer__signs {
 		background: rgb(18, 88, 40);
 		background: linear-gradient(90deg, rgb(18, 88, 40) 0%, rgb(19, 111, 50) 20%, rgb(19, 116, 52) 50%, rgb(19, 112, 51) 80%, rgb(18, 91, 41) 100%);
@@ -569,38 +667,47 @@ $font-family_2: "Lato";
 		align-items: center;
 		gap: 32px;
 		padding: 32px;
+
 		img {
 			max-width: 200px;
 		}
 	}
 }
+
 @media (min-width: 620px) {
 	#es-garnier.es-garnier {
 		.es-title {
 			font-size: 38px;
 		}
+
 		.es-subtitle {
 			font-size: 38px;
 		}
+
 		.es-kv__wrapper {
 			display: flex;
 			flex-direction: row;
 			align-items: initial;
 		}
+
 		.es-kv__branding {
 			width: 50%;
 		}
+
 		.es-kv__textCtn {
 			.es-kv__text {
 				margin-bottom: 25px;
 			}
 		}
+
 		.es-kv__packshotCtn-desktop {
 			display: flex;
 		}
+
 		.es-kv__packshotCtn-mobile {
 			display: none;
 		}
+
 		.es-kv__img {
 			width: 50%;
 			display: flex;
@@ -610,16 +717,19 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (max-width: 329px) {
 	#es-garnier.es-garnier {
 		.es-benefits__icon {
 			width: 65px;
 		}
+
 		.es-benefits__single {
 			min-width: 141px;
 			height: 240px;
 			padding: 55px 60px;
 		}
+
 		.es-benefits__ellipse-wrapper {
 			width: 90px;
 			height: 180px;
@@ -627,6 +737,7 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (min-width: 450px) {
 	#es-garnier.es-garnier {
 		.es-benefits__single {
@@ -641,19 +752,23 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (min-width: 576px) {
 	#es-garnier.es-garnier {
 		.es-benefits__BA--text {
 			padding: 15px 55px;
 		}
+
 		.es-benefits__icon {
 			width: 65px;
 		}
+
 		.es-use__single {
 			padding-inline: 80px;
 		}
 	}
 }
+
 @media (min-width: 638px) {
 	#es-garnier.es-garnier {
 		.es-benefits {
@@ -661,23 +776,28 @@ $font-family_2: "Lato";
 				display: inline;
 			}
 		}
+
 		.es-benefits__BA--text {
 			padding: 15px 105px;
 		}
+
 		.es-benefits__ellipse-wrapper {
 			bottom: -8%;
 			width: 160px;
 			height: 320px;
 		}
+
 		.es-use {
 			margin-top: 48px;
 			padding: 32px;
 			background-size: 100% 100%;
 			background-position: 0px 0px;
 		}
+
 		.es-influ__BG {
 			position: relative;
 		}
+
 		.es-influ__quote {
 			text-align: center;
 			font-style: italic;
@@ -685,24 +805,29 @@ $font-family_2: "Lato";
 			font-size: 22px;
 			margin-top: 60px;
 		}
+
 		.es-influ__name {
 			text-align: center;
 			font-weight: 700;
 			text-transform: none;
 			margin-bottom: 60px;
 		}
+
 		.es-footer__text {
 			text-align: center;
 		}
+
 		.es-footer__logoCtn {
 			margin-block: 32px;
 			margin: unset;
 		}
+
 		.es-footer__signs {
 			img {
 				flex-basis: 33%;
 				max-width: 150px;
 			}
+
 			flex-direction: row;
 			align-items: flex-end;
 			justify-content: center;
@@ -710,75 +835,96 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (min-width: 768px) {
 	#es-garnier.es-garnier {
 		.es-benefits {
 			padding: 50px 32px 32px 32px;
+
 			.es-title {
 				br {
 					display: none;
 				}
 			}
 		}
+
 		.es-benefits__container {
 			flex-wrap: nowrap;
 			justify-content: space-between;
 			align-items: center;
 			margin-top: 40px;
 		}
+
 		.es-benefits__figure {
 			max-width: 420px;
 		}
+
 		.es-benefits__imgCtn {
 			max-width: 420px;
 		}
+
 		.es-benefits__BA--text {
 			padding: 15px;
 		}
+
 		.es-benefits__ellipse-wrapper {
 			bottom: -11%;
 			width: 140px;
 			height: 280px;
 		}
+
 		.es-use {
 			margin-top: 40px;
 			position: relative;
 			height: 500px;
+
 			.es-subtitle {
 				font-size: 38px;
 			}
 		}
+
 		.es-use__header {
 			position: absolute;
 			top: 40px;
 			left: 100px;
 		}
+
 		.es-use__imgCtn {
 			transform: translate(-50%, -50%);
 			top: 50%;
 			left: 50%;
+
+			img {
+				padding: 0;
+			}
 		}
+
 		.es-use__wrapper {
 			display: block;
 			position: static;
 		}
+
 		.es-use__single {
 			&:nth-of-type(1) {
 				top: 60%;
 				left: 32px;
 			}
+
 			&:nth-of-type(2) {
 				top: 48px;
 				right: 32px;
 			}
+
 			&:nth-of-type(3) {
 				bottom: 48px;
 				right: 32px;
 			}
+
 			position: absolute;
 			max-width: 275px;
 			padding-inline: unset;
 		}
+
 		.es-use__arrows {
 			.es-use__arrow--2 {
 				position: absolute;
@@ -786,6 +932,7 @@ $font-family_2: "Lato";
 				right: 27%;
 				transform: rotateX(156deg) rotateY(151deg);
 			}
+
 			.es-use__arrow--3 {
 				position: absolute;
 				bottom: 30%;
@@ -794,13 +941,15 @@ $font-family_2: "Lato";
 			}
 		}
 	}
+
 	@media (min-width: 768px) {
-				#es-garnier.es-garnier .es-use__arrows .es-use__arrow--1 { position: absolute;
-				top: 37%;
-				left: 20%;
-			}
+		#es-garnier.es-garnier .es-use__arrows .es-use__arrow--1 {
+			position: absolute;
+			top: 37%;
+			left: 20%;
 		}
 	}
+}
 
 @media (min-width: 990px) {
 	#es-garnier.es-garnier {
@@ -810,6 +959,7 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (max-width: 767px) {
 	#es-garnier.es-garnier {
 		.es-use__arrows {
@@ -817,21 +967,25 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (min-width: 576px) and (max-width: 767px) {
 	#es-garnier.es-garnier {
 		.es-use__single {
 			&:nth-of-type(1) {
 				position: relative;
 			}
+
 			&:nth-of-type(2) {
 				position: relative;
 			}
+
 			&:nth-of-type(3) {
 				position: relative;
 			}
 		}
 	}
 }
+
 @media (min-width: 850px) {
 	#es-garnier.es-garnier {
 		.es-use__single {
@@ -839,14 +993,18 @@ $font-family_2: "Lato";
 				left: 48px;
 				top: 69%;
 			}
+
 			&:nth-of-type(2) {
 				right: 48px;
 			}
+
 			&:nth-of-type(3) {
 				right: 48px;
 			}
+
 			max-width: 320px;
 		}
+
 		.es-use__arrows {
 			.es-use__arrow--1 {
 				top: 48%;
@@ -855,21 +1013,25 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (min-width: 968px) {
 	#es-garnier.es-garnier {
 		.es-use__arrows {
 			display: block;
+
 			.es-use__arrow--1 {
 				position: absolute;
 				top: 48%;
 				left: 26%;
 			}
+
 			.es-use__arrow--2 {
 				position: absolute;
 				top: 30%;
 				right: 27%;
 				transform: rotateX(156deg) rotateY(151deg);
 			}
+
 			.es-use__arrow--3 {
 				position: absolute;
 				bottom: 30%;
@@ -879,20 +1041,25 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (min-width: 840px) {
 	#es-garnier.es-garnier {
 		.es-cross {
 			display: block;
+
 			.es-cross__table-mobile {
 				padding: 10px 20px;
 			}
+
 			.es-cross__table-mobile-title {
 				margin-top: -18px;
 			}
+
 			.es-cross__table-mobile-content {
 				margin-top: 5px;
 			}
 		}
+
 		.es-cross__link {
 			display: block;
 			width: 90%;
@@ -900,11 +1067,13 @@ $font-family_2: "Lato";
 			margin-right: auto;
 			margin-top: 0;
 		}
+
 		.es-cross--mobile {
 			display: none;
 		}
 	}
 }
+
 @media (min-width: 864px) {
 	#es-garnier.es-garnier {
 		.es-cross__text {
@@ -912,29 +1081,35 @@ $font-family_2: "Lato";
 		}
 	}
 }
+
 @media (min-width: 980px) {
 	#es-garnier.es-garnier {
 		.es-cross__wrapper {
 			justify-content: flex-end;
 		}
+
 		.es-cross {
 			.es-cross__table-mobile-title {
 				margin-top: -28px;
 			}
+
 			.es-cross__table-mobile {
 				padding: 20px 20px;
 			}
+
 			.es-cross__table-mobile-content {
 				margin-top: 20px;
 			}
 		}
 	}
 }
+
 @media (max-width: 365px) {
 	#es-garnier.es-garnier {
 		.swiper-button-prev.es-swiper1-button-prev {
 			left: 5px;
 		}
+
 		.swiper-button-next.es-swiper1-button-next {
 			right: 5px;
 		}

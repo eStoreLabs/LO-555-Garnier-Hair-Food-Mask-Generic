@@ -458,8 +458,11 @@
 }
 
 #es-garnier.es-garnier .es-use__imgCtn img {
+  max-width: 190px;
+  padding: 25px;
   margin: auto;
   transition: all 300ms ease-in-out;
+  transform: rotate(-30deg);
 }
 
 #es-garnier.es-garnier .es-use__imgCtn img:hover {
@@ -473,8 +476,8 @@
   width: 48%;
   height: 100px;
   transform: translateX(-50%);
-  bottom: -13%;
-  left: 54%;
+  bottom: -26%;
+  left: 52%;
   z-index: -1;
   background-size: 100% 100%;
   background-position: 0px 0px;
@@ -548,6 +551,9 @@
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+  }
+  #es-garnier.es-garnier .es-use__imgCtn img {
+    padding: 0;
   }
   #es-garnier.es-garnier .es-use__wrapper {
     display: block;
